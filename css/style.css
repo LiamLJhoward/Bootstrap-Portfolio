@@ -1,3 +1,5 @@
+/* Navbar */
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -8,15 +10,43 @@
     padding-top: 10px;
 }
 
-.nav-link {
+.nav-item {
   padding: 0px 30px;
   word-wrap: normal;
   display: inline-block;
 }
 
+/* Jumbotron */
+
+.jumbotron {
+    background: none;
+    width: calc(100vw - 90%);
+}
+
+h2 { 
+    margin-right: 25px;
+    float: right;
+    
+
+}
+
+/* Work */
+
+.container {
+    display: grid;
+    max-width: 400px;
+    margin: auto;
+    gap: 19px;
+}
 
 
+/* Skills */
 
+.skills-section {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
 
 
 

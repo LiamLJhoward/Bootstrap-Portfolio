@@ -1,3 +1,12 @@
+* {
+    font-family: 'Crimson Text', serif;
+    background-color: #2B2B2B;
+    color: rgb(237, 243, 248);
+}
+
+body {
+    background-color: #2B2B2B;
+}
 /* Navbar */
 
 .nav {
@@ -16,16 +25,47 @@
   display: inline-block;
 }
 
+.nav-link {
+    color: rgb(237, 243, 248);
+}
+
+.nav a {
+    color: rgb(237, 243, 248);
+  }
+  
+ .nav a:link { text-decoration: none; }
+  
+  a:visited { text-decoration: none; }
+  
+ .nav a:hover { 
+    text-decoration: underline;
+ }
+  
+  a:active { text-decoration: none; }
+
 /* Jumbotron */
 
 .jumbotron {
     background: none;
-    width: calc(100vw - 90%);
 }
 
-h2 { 
-    margin-right: 25px;
+.containername {
+    margin-left: calc(100vw - 95%);
+}
+
+.display-4 {
+    margin: -10px;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    margin-right: calc(100vw - 80%);
     float: right;
+    font-size: 36px;
     
 
 }
@@ -34,11 +74,32 @@ h2 {
 
 .container {
     display: grid;
-    max-width: 400px;
-    margin: auto;
-    gap: 19px;
+    max-width: 500px;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
+.col-12 .col-6 {
+    height: 200px;
+}
+
+.container .col-12 img {
+    width: 100%;
+}
+
+.container .col-6 img {
+    width: 100%;
+}
+/* About */
+
+p { 
+    max-width: 500px;
+    margin: auto;
+    text-align: right;
+    font-size: 1.675rem;
+
+}
 
 /* Skills */
 
@@ -46,6 +107,7 @@ h2 {
     max-width: 400px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -54,14 +116,3 @@ h2 {
 
 /* Links */ 
 
-a {
-    color: black;
-  }
-  
-  a:link { text-decoration: none; }
-  
-  a:visited { text-decoration: none; }
-  
-  a:hover { text-decoration: none; }
-  
-  a:active { text-decoration: none; }

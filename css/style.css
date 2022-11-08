@@ -74,14 +74,14 @@ h2 {
 
 .container {
     display: grid;
-    max-width: 500px;
+    max-width: 700px;
     gap: 25px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.col-12 .col-6 {
-    height: 200px;
+.container .col-12 {
+    height: auto;
 }
 
 .container .col-12 img {
@@ -93,9 +93,6 @@ h2 {
 }
 
 
-
-
-
 /* Skills */
 
 .skills-section {
@@ -103,7 +100,7 @@ h2 {
     margin: auto;
     margin-top: 130px;
     margin-bottom: 50px;
-    margin-right: calc(100vw - 64%);
+    
 }
 
 /* About */
@@ -113,7 +110,6 @@ p {
     margin: auto;
     text-align: right;
     font-size: 1.675rem;
-    margin-right: calc(100vw - 64%);
     margin-top: 130px;
 }
 
@@ -126,7 +122,6 @@ p {
     justify-content: space-around;
     margin-top: 70px;
     margin-bottom: 30px;
-    margin-right: calc(100vw - 64%);
     font-size: 2rem;
     font-style: italic;
 }
